@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:Relational="http://www.example.org/Relational" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ecore:nsPrefix="Relational" ecore:package="Relational" targetNamespace="http://www.example.org/Relational">
+  <xsd:import namespace="http://www.eclipse.org/emf/2002/Ecore" schemaLocation="platform:/plugin/org.eclipse.emf.ecore/model/Ecore.xsd"/>
+  <xsd:element ecore:ignore="true" name="Named" type="Relational:Named"/>
+  <xsd:element ecore:ignore="true" name="Table" type="Relational:Table"/>
+  <xsd:element ecore:ignore="true" name="Column" type="Relational:Column"/>
+  <xsd:element ecore:ignore="true" name="Type" type="Relational:Type"/>
+  <xsd:element ecore:ignore="true" name="Schema" type="Relational:Schema"/>
+  <xsd:complexType abstract="true" name="Named">
+    <xsd:attribute name="name" type="ecore:EString"/>
+  </xsd:complexType>
+  <xsd:complexType name="Table">
+    <xsd:complexContent>
+      <xsd:extension base="Relational:Named">
+        <xsd:sequence>
+          <xsd:element ecore:resolveProxies="true" maxOccurs="unbounded" minOccurs="0" name="col" type="Relational:Column"/>
+        </xsd:sequence>
+        <xsd:attribute ecore:reference="Relational:Column" name="key">
+          <xsd:simpleType>
+            <xsd:list itemType="xsd:anyURI"/>
+          </xsd:simpleType>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:complexType name="Column">
+    <xsd:complexContent>
+      <xsd:extension base="Relational:Named">
+        <xsd:attribute ecore:reference="Relational:Type" name="type" type="xsd:anyURI" use="required"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:complexType name="Type">
+    <xsd:complexContent>
+      <xsd:extension base="Relational:Named"/>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:complexType name="Schema">
+    <xsd:sequence>
+      <xsd:element ecore:resolveProxies="true" maxOccurs="unbounded" minOccurs="0" name="tables" type="Relational:Table"/>
+      <xsd:element ecore:resolveProxies="true" maxOccurs="unbounded" minOccurs="0" name="types" type="Relational:Type"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

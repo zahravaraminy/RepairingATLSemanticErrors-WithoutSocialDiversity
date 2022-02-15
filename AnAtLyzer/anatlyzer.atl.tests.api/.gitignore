@@ -1,0 +1,9 @@
+bin/
+outputfolder/
+tmp_/
+
+consol.txt
+err.log
+err.txt
+NSGAII_main.log.*
+/finalresult1.emftvm

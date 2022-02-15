@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Activity xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <node xsi:type="uml:ActivityFinalNode" incoming="//@edge.14"/>
+  <node xsi:type="uml:InitialNode" outgoing="//@edge.0"/>
+  <node xsi:type="uml:InputPin" name="Requested Order" outgoing="//@edge.1"/>
+  <node xsi:type="uml:OpaqueAction" name="Receive Order" outgoing="//@edge.2" incoming="//@edge.0 //@edge.1"/>
+  <node xsi:type="uml:OpaqueAction" name="Fill Order" outgoing="//@edge.5" incoming="//@edge.3"/>
+  <node xsi:type="uml:OpaqueAction" name="Send Invoice" outgoing="//@edge.8" incoming="//@edge.6"/>
+  <node xsi:type="uml:OpaqueAction" name="Ship Order" outgoing="//@edge.11" incoming="//@edge.7"/>
+  <node xsi:type="uml:OpaqueAction" name="Accept Payment" outgoing="//@edge.10" incoming="//@edge.9"/>
+  <node xsi:type="uml:OpaqueAction" name="Close Order" outgoing="//@edge.14" incoming="//@edge.13"/>
+  <node xsi:type="uml:DecisionNode" name="1" outgoing="//@edge.3 //@edge.4" incoming="//@edge.2"/>
+  <node xsi:type="uml:DecisionNode" name="2" outgoing="//@edge.13" incoming="//@edge.4 //@edge.12"/>
+  <node xsi:type="uml:ForkNode" outgoing="//@edge.6 //@edge.7" incoming="//@edge.5"/>
+  <node xsi:type="uml:MergeNode" outgoing="//@edge.12" incoming="//@edge.10 //@edge.11"/>
+  <node xsi:type="uml:SendObjectAction" name="Invoice" outgoing="//@edge.9" incoming="//@edge.8"/>
+  <edge xsi:type="uml:ControlFlow" source="//@node.1" target="//@node.3"/>
+  <edge xsi:type="uml:ControlFlow" source="//@node.2" target="//@node.3"/>
+  <edge xsi:type="uml:ControlFlow" source="//@node.3" target="//@node.9"/>
+  <edge xsi:type="uml:ControlFlow" name="[order accepted]" source="//@node.9" target="//@node.4"/>
+  <edge xsi:type="uml:ControlFlow" name="[Order rejected]" source="//@node.9" target="//@node.10"/>
+  <edge xsi:type="uml:ControlFlow" source="//@node.4" target="//@node.11"/>
+  <edge xsi:type="uml:ControlFlow" source="//@node.11" target="//@node.5"/>
+  <edge xsi:type="uml:ControlFlow" source="//@node.11" target="//@node.6"/>
+  <edge xsi:type="uml:ControlFlow" source="//@node.5" target="//@node.13"/>
+  <edge xsi:type="uml:ControlFlow" source="//@node.13" target="//@node.7"/>
+  <edge xsi:type="uml:ControlFlow" source="//@node.7" target="//@node.12"/>
+  <edge xsi:type="uml:ControlFlow" source="//@node.6" target="//@node.12"/>
+  <edge xsi:type="uml:ControlFlow" source="//@node.12" target="//@node.10"/>
+  <edge xsi:type="uml:ControlFlow" source="//@node.10" target="//@node.8"/>
+  <edge xsi:type="uml:ControlFlow" source="//@node.8" target="//@node.0"/>
+</uml:Activity>

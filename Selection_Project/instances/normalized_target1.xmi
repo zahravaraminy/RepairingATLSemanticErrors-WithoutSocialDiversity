@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?> 
+<Relational:Schema xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:Relational="http://www.example.org/Relational" xsi:schemaLocation="http://www.example.org/Relational ../models/Relational.ecore"> 
+    <tables name="Family" key="/0/@tables.0/@col.0"> 
+      <col name="objectId"/> 
+      <col name="name " type="/1"/> 
+    </tables> 
+    <tables name="Person" key="/0/@tables.1/@col.0"> 
+      <col name="objectId"/> 
+      <col name="firstname " type="/1"/> 
+      <col name="closestfriend Id"/> 
+    </tables> 
+    <tables name="Family_members "> 
+      <col name="Family"/> 
+      <col name="members "/> 
+    </tables> 
+    <tables name="Person_emailAddresses "> 
+      <col name="Person"/> 
+      <col name="emailAddresses " type="/1"/> 
+    </tables> 
+  </Relational:Schema> 

@@ -1,0 +1,6 @@
+
+rule Class2Table --index=1
+rule ClassAttribute2Column -- index=5
+
+
+

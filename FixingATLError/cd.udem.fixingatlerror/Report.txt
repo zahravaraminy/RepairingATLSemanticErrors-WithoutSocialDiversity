@@ -1,0 +1,53 @@
+- The rule Package2Schema (Index = 0): NOT SELECTED.
+
+
+___________________________________________________________________
+
+- The rule Class2Table (Index = 1):
+- MM1 = MM2 ::: MM1(Table) is equal to MM2(Table) of the element :User - this rule is from Class to Table
+- MM1 = MM2 ::: MM1(Table) is equal to MM2(Table) of the element :AdminUser - this rule is from Class to Table
+- MM1 = MM2 ::: MM1(Table) is equal to MM2(Table) of the element :Attribute - this rule is from Class to Table
+- MM1 = MM2 ::: MM1(Table) is equal to MM2(Table) of the element :User - this rule is from Class to Table
+- MM1 = MM2 ::: MM1(Table) is equal to MM2(Table) of the element :User - this rule is from Class to Table
+
+
+___________________________________________________________________
+
+- The rule DataType2Type (Index = 2): NOT SELECTED.
+
+
+___________________________________________________________________
+
+- The rule DataTypeAttribute2Column (Index = 3): NOT SELECTED.
+
+
+___________________________________________________________________
+
+- The rule MultiValuedDataTypeAttribute2Column (Index = 4):
+- MM1 = MM2 ::: MM1(Table) is equal to MM2(Table) of the element :Project - this rule is from Attribute to Table
+- MM1 = MM2 ::: MM1(Table) is equal to MM2(Table) of the element :Entity - this rule is from Attribute to Table
+- MM1 = MM2 ::: MM1(Table) is equal to MM2(Table) of the element :Project - this rule is from Attribute to Table
+- MM1 = MM2 ::: MM1(Table) is equal to MM2(Table) of the element :Entity - this rule is from Attribute to Table
+
+
+___________________________________________________________________
+
+- The rule ClassAttribute2Column (Index = 5): NOT SELECTED.
+
+
+___________________________________________________________________
+
+- The rule MultiValuedClassAttribute2Column (Index = 6):
+- MM1 = MM2 ::: MM1(Table) is equal to MM2(Table) of the element :Project - this rule is from Attribute to Table
+- MM1 = MM2 ::: MM1(Table) is equal to MM2(Table) of the element :Entity - this rule is from Attribute to Table
+- MM1 = MM2 ::: MM1(Table) is equal to MM2(Table) of the element :Project - this rule is from Attribute to Table
+- MM1 = MM2 ::: MM1(Table) is equal to MM2(Table) of the element :Entity - this rule is from Attribute to Table
+
+
+___________________________________________________________________
+
+- The rule createIdColumn (Index = 7): NOT SELECTED.
+
+
+___________________________________________________________________
+

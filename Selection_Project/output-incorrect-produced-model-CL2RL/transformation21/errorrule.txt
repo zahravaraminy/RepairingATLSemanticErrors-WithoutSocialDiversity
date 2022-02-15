@@ -1,0 +1,6 @@
+rule Package2Schema-- index=0
+rule MultiValuedClassAttribute2Column--index=6
+rule MultiValuedDataTypeAttribute2Column-- index=4
+
+
+

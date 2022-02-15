@@ -1,0 +1,2 @@
+rule DataTypeAttribute2Column --index= 3
+rule MultiValuedDataTypeAttribute2Column-- index=4

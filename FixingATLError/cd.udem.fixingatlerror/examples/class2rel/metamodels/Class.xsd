@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:Class="Class" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ecore:nsPrefix="Class" ecore:package="Class" targetNamespace="Class">
+  <xsd:import namespace="http://www.eclipse.org/emf/2002/Ecore" schemaLocation="platform:/plugin/org.eclipse.emf.ecore/model/Ecore.xsd"/>
+  <xsd:element ecore:ignore="true" name="NamedElt" type="Class:NamedElt"/>
+  <xsd:element ecore:ignore="true" name="Package" type="Class:Package"/>
+  <xsd:element ecore:ignore="true" name="Classifier" type="Class:Classifier"/>
+  <xsd:element ecore:ignore="true" name="DataType" type="Class:DataType"/>
+  <xsd:element ecore:ignore="true" name="Class" type="Class:Class"/>
+  <xsd:element ecore:ignore="true" name="Attribute" type="Class:Attribute"/>
+  <xsd:complexType abstract="true" name="NamedElt">
+    <xsd:attribute name="name" type="ecore:EString"/>
+  </xsd:complexType>
+  <xsd:complexType name="Package">
+    <xsd:complexContent>
+      <xsd:extension base="Class:NamedElt">
+        <xsd:sequence>
+          <xsd:element ecore:opposite="package" ecore:resolveProxies="true" maxOccurs="unbounded" minOccurs="0" name="elems" type="Class:Classifier"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:complexType abstract="true" name="Classifier">
+    <xsd:complexContent>
+      <xsd:extension base="Class:NamedElt">
+        <xsd:attribute ecore:opposite="elems" ecore:reference="Class:Package" name="package" type="xsd:anyURI"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:complexType name="DataType">
+    <xsd:complexContent>
+      <xsd:extension base="Class:Classifier"/>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:complexType name="Class">
+    <xsd:complexContent>
+      <xsd:extension base="Class:Classifier">
+        <xsd:sequence>
+          <xsd:element ecore:opposite="owner" ecore:resolveProxies="true" maxOccurs="unbounded" minOccurs="0" name="att" type="Class:Attribute"/>
+        </xsd:sequence>
+        <xsd:attribute ecore:unsettable="false" name="isAbstract" type="ecore:EBoolean" use="required"/>
+        <xsd:attribute ecore:reference="Class:Class" name="supers">
+          <xsd:simpleType>
+            <xsd:list itemType="xsd:anyURI"/>
+          </xsd:simpleType>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:complexType name="Attribute">
+    <xsd:complexContent>
+      <xsd:extension base="Class:NamedElt">
+        <xsd:attribute ecore:unsettable="false" name="multiValued" type="ecore:EBoolean"/>
+        <xsd:attribute ecore:reference="Class:Classifier" name="type" type="xsd:anyURI" use="required"/>
+        <xsd:attribute ecore:opposite="att" ecore:reference="Class:Class" name="owner" type="xsd:anyURI" use="required"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+</xsd:schema>

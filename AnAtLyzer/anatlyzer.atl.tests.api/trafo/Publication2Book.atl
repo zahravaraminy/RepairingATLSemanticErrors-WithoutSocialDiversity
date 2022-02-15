@@ -1,0 +1,25 @@
+-- @path Publication=/ATL_DEMO_WS13/metamodels/Publication.ecore
+-- @path Book=/ATL_DEMO_WS13/metamodels/Book.ecore
+
+module Publication2Book;
+create OUT : Book from IN : Publication;
+
+rule Journal2Book  {
+	from
+		j : Publication!Journal
+	to 
+		b1 : Book!Book (
+			name <- j.name
+		)
+}
+
+
+rule Collection2Collection  {
+	from
+		jc : Publication!JournalCollection
+	to 
+		bc : Book!BookCollection (
+			books <- jc.journals
+		)
+}
+

@@ -1,0 +1,6 @@
+rule MultiValuedClassAttribute2Column-- index=6
+rule Class2Table-- index=1
+
+
+
+

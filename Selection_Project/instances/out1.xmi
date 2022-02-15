@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Relational:Schema xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Relational_ECORE="http://www.example.org/Relational_ECORE">
+  <tables name="R1" key="//@tables.0/@col.0">
+    <col name="x" type="//@types.0"/>
+    <col name="y" type="//@types.1"/>
+  </tables>
+  <tables name="R2" key="//@tables.1/@col.0 //@tables.1/@col.1">
+    <col name="z" type="//@types.2"/>
+    <col name="h" type="//@types.2"/>
+  </tables>
+  <tables name="R3" key="//@tables.2/@col.0">
+    <col name="e" type="//@types.2"/>
+    <col name="f" type="//@types.2"/>
+  </tables>
+  <tables name="R4" key="//@tables.3/@col.0">
+    <col name="g" type="//@types.2"/>
+  </tables>
+  <tables name="R5" key="//@tables.4/@col.0">
+    <col name="id" type="//@types.2"/>
+  </tables>
+  <types name="NVARCHAR"/>
+  <types name="DATE"/>
+  <types name="NUMBER"/>
+  <types name="Boolean"/>
+</Relational:Schema>

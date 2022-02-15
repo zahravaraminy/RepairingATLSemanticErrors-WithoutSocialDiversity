@@ -1,0 +1,109 @@
+-- @path PNML=D:\java\ATLproject\neonssmallprojects\anatlyzer.evaluation.mutants\trafo\PNML.ecore
+-- @path PetriNet=D:\java\ATLproject\neonssmallprojects\anatlyzer.evaluation.mutants\trafo\PetriNet.ecore
+module PNML2PetriNet;
+create OUT : PetriNet from IN : PNML;
+rule PetriNet1 {
+	from
+		n : PNML!NetElement
+	using{
+			arcsSet : Sequence(PNML!Arc) =
+				n.contents->select(e|e.oclIsKindOf(PNML!Arc));
+	
+			}
+	to
+		p : PetriNet!PetriNet
+		(
+			elements <- n.contents,
+			arcs <- arcsSet
+		)
+}
+rule PetriNet2 {
+	from
+		n : PNML!NetElement
+	using{
+			arcsSet : Sequence(PNML!Transition) =
+				n.contents->select(e|e.oclIsKindOf(PNML!Arc));
+	
+			}
+	to
+		p : PetriNet!PetriNet
+		(
+			elements <- n.contents,
+			arcs <- arcsSet
+		)
+}
+rule PetriNet3 {
+	from
+		n : PNML!NetElement
+	using{
+			arcsSet : Sequence(PNML!Place) =
+				n.contents->select(e|e.oclIsKindOf(PNML!Arc));
+	
+			}
+	to
+		p : PetriNet!PetriNet
+		(
+			elements <- n.contents,
+			arcs <- arcsSet
+		)
+}
+rule PetriNet4 {
+	from
+		n : PNML!NetElement
+	using{
+			arcsSet : Sequence(PNML!NetElement) =
+				n.contents->select(e|e.oclIsKindOf(PNML!Arc));
+	
+			}
+	to
+		p : PetriNet!PetriNet
+		(
+			elements <- n.contents,
+			arcs <- arcsSet
+		)
+}
+rule PetriNet5 {
+	from
+		n : PNML!NetElement
+	using{
+			arcsSet : Sequence(PNML!Name) =
+				n.contents->select(e|e.oclIsKindOf(PNML!Arc));
+	
+			}
+	to
+		p : PetriNet!PetriNet
+		(
+			elements <- n.contents,
+			arcs <- arcsSet
+		)
+}
+rule PetriNet6 {
+	from
+		n : PNML!NetElement
+	using{
+			arcsSet : Sequence(PNML!NetContent) =
+				n.contents->select(e|e.oclIsKindOf(PNML!Arc));
+	
+			}
+	to
+		p : PetriNet!PetriNet
+		(
+			elements <- n.contents,
+			arcs <- arcsSet
+		)
+}
+rule PetriNet7 {
+	from
+		n : PNML!NetElement
+	using{
+			arcsSet : Sequence(PNML!Label) =
+				n.contents->select(e|e.oclIsKindOf(PNML!Arc));
+	
+			}
+	to
+		p : PetriNet!PetriNet
+		(
+			elements <- n.contents,
+			arcs <- arcsSet
+		)
+}

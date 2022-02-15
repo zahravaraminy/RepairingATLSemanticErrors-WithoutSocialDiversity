@@ -1,0 +1,4 @@
+rule Package2Schema-- index=0
+rule ClassAttribute2Column-- index=5
+rule DataTypeAttribute2Column-- index=3
+rule MultiValuedDataTypeAttribute2Column-- index=4

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PNML:PNMLDocument xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PNML="PNML" xsi:schemaLocation="PNML PP#/0">
+  <nets location="1:1-126:2" id="1:1-126:2" >
+    <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+    <contents xsi:type="PNML:Place" location="135:120-138:121" id="P0">
+      <name>
+        <labels text="P0"/>
+      </name>
+    </contents>
+    <contents xsi:type="PNML:Place" location="375:120-378:121" id="P1">
+    <name>
+        <labels text="P1"/>
+      </name>
+    </contents>
+    <contents xsi:type="PNML:Place" location="255:315-255:315" id="P2">
+    <name>
+        <labels text="P2"/>
+      </name>
+    </contents>
+    <contents xsi:type="PNML:Transition" location="255:120-255:120" id="T0">
+      <name>
+        <labels text="T0"/>
+      </name>
+    </contents>
+    <contents xsi:type="PNML:Transition" location="330:225-330:225" id="T1">
+    <name>
+        <labels text="T1"/>
+      </name>
+    </contents>
+    <contents xsi:type="PNML:Transition" location="180:225-180:225" id="T2">
+     <name>
+        <labels text="T2"/>
+      </name>
+    </contents>
+    <contents xsi:type="PNML:Arc" location="135:15-120:32" id="P0 to T0" source="//@nets.0/@contents.0" target="//@nets.0/@contents.3">
+      <name>
+        <labels text="P0 to T0"/>
+      </name>
+    </contents>
+    <contents xsi:type="PNML:Arc" location="375:120-375:120" id="P1 to T1" source="//@nets.0/@contents.1" target="//@nets.0/@contents.4">
+     <name>
+        <labels text="P1 to T1"/>
+      </name>
+    </contents>
+    <contents xsi:type="PNML:Arc" location="255:315-255:315" id="P2 to T2" source="//@nets.0/@contents.2" target="//@nets.0/@contents.5">
+     <name>
+        <labels text="P2 to T2"/>
+      </name>
+    </contents>
+    <contents xsi:type="PNML:Arc" location="255:120-255:120" id="T0 to P1" source="//@nets.0/@contents.3" target="//@nets.0/@contents.1">
+     <name>
+        <labels text="T0 to P1"/>
+      </name>
+    </contents>
+    <contents xsi:type="PNML:Arc" location="330:225-330:225" id="T1 to P2" source="//@nets.0/@contents.4" target="//@nets.0/@contents.2">
+     <name>
+        <labels text="T1 to P2"/>
+      </name>
+    </contents>
+    <contents xsi:type="PNML:Arc" location="180:225-180:225" id="T2 to P0" source="//@nets.0/@contents.5" target="//@nets.0/@contents.0">
+     <name>
+        <labels text="T2 to P0"/>
+      </name>
+    </contents>
+   <name>
+      <labels text="ClassicGSPN"/>
+    </name>
+  </nets>
+</PNML:PNMLDocument>

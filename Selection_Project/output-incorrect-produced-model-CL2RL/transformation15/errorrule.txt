@@ -1,0 +1,5 @@
+
+rule MultiValuedClassAttribute2Column-- index=6
+rule MultiValuedDataTypeAttribute2Column-- index=4
+rule DataTypeAttribute2Column-- index=3
+

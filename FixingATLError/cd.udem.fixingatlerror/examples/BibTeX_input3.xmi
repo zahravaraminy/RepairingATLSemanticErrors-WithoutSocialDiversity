@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bibtex:BibTeXFile 
+xmi:version="2.0" 
+xmlns:xmi="http://www.omg.org/XMI" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:bibtex="http://BibTeX/1.0" 
+xsi:schemaLocation="http://BibTeX/1.0 BibTeX.ecore#/">
+  <entries xsi:type="bibtex:Article" id="gn_bdcfqwa" year="1984" title="Program slicing" journal="Software and Systems Modeling">
+    <authors author="Robert C. Martin"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="bibtex:Article" id="nkcycmco-e" year="1991" title="An intrusion-detection model" journal="Information and Software Technology">
+    <authors author="Paul Pettersson"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="bibtex:Article" id="yhdqfdtgl_" year="1984" title="The model checker SPIN" journal="IEEE Transactions on Software Engineering">
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="bibtex:Article" id="h_vx-fsla " year="2000" title="The model checker SPIN" journal="Software and Systems Modeling">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="bibtex:InProceedings" id="e _l_-r fx" year="1994" title="Graph drawing by force-directed placement" booktitle="bbpohrdkbo">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="bibtex:InCollection" id="ff-anmvjtu" year="1984" title="4 + 1 view model of architecture" publisher="jy-jzcdfor" booktitle="khhohfxhho">
+    <authors author="Erich Gamma"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="bibtex:InCollection" id="zdjzb sri " year="2004" title="Program slicing" publisher="x-gl-umnk_" booktitle="_uuqfbsh p">
+    <authors author="Bruce Schneier"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="bibtex:InCollection" id="dr_skwyuzt" year="1984" title="Uppaal in a nutshell" publisher=" ik vor_ic" booktitle="-tj_snvxup">
+    <authors author="Craig Larman"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="bibtex:InBook" id="jk-reyr_im" year="1997" title="The model checker SPIN" publisher="ri-u-iwlsg" chapter="9">
+    <authors author="Martin Fowler"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="bibtex:InBook" id="x-lueehuvi" year="2004" title="The model checker SPIN" publisher="xv_nis_xxt" chapter="60">
+    <authors author="Paul Pettersson"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+</bibtex:BibTeXFile>

@@ -1,0 +1,12 @@
+-- @path MM=C:\Users\wael\OneDrive\atloperationsneon\mutants\anatlyzer.evaluation.mutants\trafo\a.ecore
+module a;
+create OUT : MM from IN : MM;
+
+rule name {
+	from
+		a : MM!A
+	to 
+		b : MM!A (
+			a <- a.a
+		)
+}

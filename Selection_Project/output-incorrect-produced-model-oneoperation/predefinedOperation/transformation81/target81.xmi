@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Relational:Schema xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Relational="Relational">
+  <tables name="Family" key="//@tables.0/@col.0">
+    <col name="objectId" type="//@types.1"/>
+    <col name="name" type="//@types.0"/>
+  </tables>
+  <tables name="Person" key="//@tables.1/@col.0">
+    <col name="objectId" type="//@types.1"/>
+    <col name="firstName" type="//@types.0"/>
+    <col name=" closestFriendId" type="//@types.1"/>
+  </tables>
+  <tables name="Family_members">
+    <col name="Family" type="//@types.1"/>
+    <col name="members" type="//@types.1"/>
+  </tables>
+  <tables name="Person_ emailAddresses">
+    <col name="Person" type="//@types.1"/>
+    <col name=" emailAddresses" type="//@types.0"/>
+  </tables>
+  <types name="String"/>
+  <types name="Integer"/>
+</Relational:Schema>

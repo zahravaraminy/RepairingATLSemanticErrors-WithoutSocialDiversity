@@ -1,0 +1,8 @@
+org.eclipse.emf.compare.internal.spec.AttributeChangeSpec{attribute=NamedElement.name,value=150:210-150:210,kind=CHANGE,source=LEFT,state=UNRESOLVED}
+org.eclipse.emf.compare.internal.spec.AttributeChangeSpec{attribute=NamedElement.name,value=150:90-150:90,kind=CHANGE,source=LEFT,state=UNRESOLVED}
+org.eclipse.emf.compare.internal.spec.AttributeChangeSpec{attribute=NamedElement.name,value=150:330-150:330,kind=CHANGE,source=LEFT,state=UNRESOLVED}
+org.eclipse.emf.compare.internal.spec.AttributeChangeSpec{attribute=NamedElement.name,value=420:90-420:90,kind=CHANGE,source=LEFT,state=UNRESOLVED}
+org.eclipse.emf.compare.internal.spec.AttributeChangeSpec{attribute=NamedElement.name,value=420:210-420:210,kind=CHANGE,source=LEFT,state=UNRESOLVED}
+org.eclipse.emf.compare.internal.spec.AttributeChangeSpec{attribute=NamedElement.name,value=420:330-420:330,kind=CHANGE,source=LEFT,state=UNRESOLVED}
+org.eclipse.emf.compare.internal.spec.AttributeChangeSpec{attribute=NamedElement.name,value=285:180-285:180,kind=CHANGE,source=LEFT,state=UNRESOLVED}
+org.eclipse.emf.compare.internal.spec.AttributeChangeSpec{attribute=NamedElement.name,value=285:270-285:270,kind=CHANGE,source=LEFT,state=UNRESOLVED}

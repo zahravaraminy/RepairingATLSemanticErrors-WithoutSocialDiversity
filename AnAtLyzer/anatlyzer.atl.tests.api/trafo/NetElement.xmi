@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PNML:NetElement
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:PNML="http://PNML"
+    xsi:schemaLocation="http://PNML PNML.ecore">
+  <name>
+    <labels
+        text="arc"/>
+  </name>
+  <contents
+      xsi:type="PNML:Arc"
+      name="//@name"
+      source="//@contents.2"
+      target="//@contents.1"/>
+  <contents
+      xsi:type="PNML:Place"/>
+  <contents
+      xsi:type="PNML:Transition"/>
+</PNML:NetElement>

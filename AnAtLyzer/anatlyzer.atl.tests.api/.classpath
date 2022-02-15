@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/varaminz/Downloads/Project/workspaceTEST34/anatlyzer.use.witness/lib/transml.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/anatlyzer.atl.typing"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/anatlyzer.use.witness"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

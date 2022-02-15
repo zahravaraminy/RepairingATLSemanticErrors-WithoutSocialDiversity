@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Relational:Schema xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:Relational="http://www.example.org/Relational" xsi:schemaLocation="http://www.example.org/Relational ../models/Relational.ecore" >
+  <tables name="R1" key="//@tables.0/@col.0">
+   
+    <col name="y" type="//@types.1"/>
+  </tables>
+  <tables name="R2" key="//@tables.1/@col.0 //@tables.1/@col.1">
+    <col name="z" type="//@types.2"/>
+    <col name="h" type="//@types.2"/>
+  </tables>
+  <tables name="R3" key="//@tables.2/@col.0">
+    <col name="e" type="//@types.2"/>
+    <col name="f" type="//@types.2"/>
+  </tables>
+  <tables name="R4" key="//@tables.3/@col.0">
+    <col name="g" type="//@types.2"/>
+  </tables>
+  <tables name="R5" key="//@tables.4/@col.0">
+    <col name="id" type="//@types.2"/>
+  </tables>
+   <tables name="x" key="//@tables.4/@col.0">
+    <col name="id" type="//@types.2"/>
+  </tables>
+  <types name="NVARCHAR"/>
+  <types name="DATE"/>
+  
+  <types name="Boolean"/>
+</Relational:Schema>
