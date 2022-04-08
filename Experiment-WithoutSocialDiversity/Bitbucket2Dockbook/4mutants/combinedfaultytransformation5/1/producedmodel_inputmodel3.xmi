@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ASCII"?>
+<docbook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:docbook="docbook">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <sections_2 xsi:type="docbook:Para" content="[dr_skwyuzt] InCollection Uppaal in a nutshell Craig Larman Nenad Medvidovic 1984 -tj_snvxup  ik vor_ic"/>
+        <sections_2 xsi:type="docbook:Para" content="[e _l_-r fx] InProceedings Graph drawing by force-directed placement Kim G. Larsen Marlon Dumas Nenad Medvidovic 1994 bbpohrdkbo"/>
+        <sections_2 xsi:type="docbook:Para" content="[ff-anmvjtu] InCollection 4 + 1 view model of architecture Erich Gamma Bruce Schneier 1984 khhohfxhho jy-jzcdfor"/>
+        <sections_2 xsi:type="docbook:Para" content="[gn_bdcfqwa] Article Program slicing Robert C. Martin Paul Pettersson Paul Pettersson 1984 Software and Systems Modeling"/>
+        <sections_2 xsi:type="docbook:Para" content="[h_vx-fsla ] Article The model checker SPIN Kim G. Larsen Gerard J. Holzmann Kim G. Larsen Elisabeth Freeman 2000 Software and Systems Modeling"/>
+        <sections_2 xsi:type="docbook:Para" content="[jk-reyr_im] InBook The model checker SPIN Martin Fowler Marlon Dumas Gerard J. Holzmann 1997 ri-u-iwlsg 9"/>
+        <sections_2 xsi:type="docbook:Para" content="[nkcycmco-e] Article An intrusion-detection model Paul Pettersson Marlon Dumas Edward N. Reingold 1991 Information and Software Technology"/>
+        <sections_2 xsi:type="docbook:Para" content="[x-lueehuvi] InBook The model checker SPIN Paul Pettersson Shyam R. Chidamber Philippe Kruchten Dorothy E. Denning 2004 xv_nis_xxt 60"/>
+        <sections_2 xsi:type="docbook:Para" content="[yhdqfdtgl_] Article The model checker SPIN Richard N. Taylor 1984 IEEE Transactions on Software Engineering"/>
+        <sections_2 xsi:type="docbook:Para" content="[zdjzb sri ] InCollection Program slicing Bruce Schneier Gerard J. Holzmann 2004 _uuqfbsh p x-gl-umnk_"/>
+      </sections_1>
+      <sections_1 title="Authors list">
+        <paras content="Bruce Schneier"/>
+        <paras content="Craig Larman"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Kim G. Larsen"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Richard N. Taylor"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="4 + 1 view model of architecture"/>
+        <paras content="An intrusion-detection model"/>
+        <paras content="Graph drawing by force-directed placement"/>
+        <paras content="Program slicing"/>
+        <paras content="The model checker SPIN"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="IEEE Transactions on Software Engineering"/>
+        <paras content="Information and Software Technology"/>
+        <paras content="Software and Systems Modeling"/>
+      </sections_1>
+    </articles>
+  </books>
+</docbook:DocBook>

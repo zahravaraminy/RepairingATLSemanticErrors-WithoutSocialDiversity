@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ASCII"?>
+<PetriNet:PetriNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PetriNet="PetriNet" name="ProducerConsumer">
+  <elements xsi:type="PetriNet:Place" location="150:210-150:210" name="P1" incomingArc="//@arcs.0" outgoingArc="//@arcs.8"/>
+  <elements xsi:type="PetriNet:Transition" location="150:150-150:150" name="T0" incomingArc="//@arcs.9 //@arcs.15" outgoingArc="//@arcs.0 //@arcs.1"/>
+  <elements xsi:type="PetriNet:Place" location="150:90-150:90" name="P0" incomingArc="//@arcs.6" outgoingArc="//@arcs.9"/>
+  <elements xsi:type="PetriNet:Place" location="150:330-150:330" name="P2" incomingArc="//@arcs.5" outgoingArc="//@arcs.10"/>
+  <elements xsi:type="PetriNet:Place" location="420:90-420:90" name="P3" incomingArc="//@arcs.7" outgoingArc="//@arcs.11"/>
+  <elements xsi:type="PetriNet:Place" location="420:210-420:210" name="P4" incomingArc="//@arcs.2" outgoingArc="//@arcs.12"/>
+  <elements xsi:type="PetriNet:Place" location="420:330-420:330" name="P5" incomingArc="//@arcs.4" outgoingArc="//@arcs.13"/>
+  <elements xsi:type="PetriNet:Place" location="285:180-285:180" name="P6" incomingArc="//@arcs.1" outgoingArc="//@arcs.14"/>
+  <elements xsi:type="PetriNet:Place" location="285:270-285:270" name="P7" incomingArc="//@arcs.3" outgoingArc="//@arcs.15"/>
+  <elements xsi:type="PetriNet:Transition" location="420:150-420:150" name="T1" incomingArc="//@arcs.11 //@arcs.14" outgoingArc="//@arcs.2 //@arcs.3"/>
+  <elements xsi:type="PetriNet:Transition" location="420:285-420:285" name="T2" incomingArc="//@arcs.12" outgoingArc="//@arcs.4"/>
+  <elements xsi:type="PetriNet:Transition" location="150:285-150:285" name="T3" incomingArc="//@arcs.8" outgoingArc="//@arcs.5"/>
+  <elements xsi:type="PetriNet:Transition" location="60:210-60:210" name="T4" incomingArc="//@arcs.10" outgoingArc="//@arcs.6"/>
+  <elements xsi:type="PetriNet:Transition" location="525:210-525:210" name="T5" incomingArc="//@arcs.13" outgoingArc="//@arcs.7"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="150:150-150:150" name="T0toP1" from="//@elements.1" to="//@elements.0"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="150:150-150:150" name="T0toP6" from="//@elements.1" to="//@elements.7"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="420:150-420:150" name="T1toP4" from="//@elements.9" to="//@elements.5"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="420:150-420:150" name="T1toP7" from="//@elements.9" to="//@elements.8"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="420:285-420:285" name="T2toP5" from="//@elements.10" to="//@elements.6"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="150:285-150:285" name="T3toP2" from="//@elements.11" to="//@elements.3"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="60:210-60:210" name="T4toP0" from="//@elements.12" to="//@elements.2"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="525:210-525:210" name="T5toP3" from="//@elements.13" to="//@elements.4"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="150:210-150:210" name="P1toT3" from="//@elements.0" to="//@elements.11"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="150:90-150:90" name="P0toT0" from="//@elements.2" to="//@elements.1"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="150:330-150:330" name="P2toT4" from="//@elements.3" to="//@elements.12"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="420:90-420:90" name="P3ToT1" from="//@elements.4" to="//@elements.9"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="420:210-420:210" name="P4ToT2" from="//@elements.5" to="//@elements.10"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="420:330-420:330" name="P5toT5" from="//@elements.6" to="//@elements.13"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="258:180-258:180" name="P6toT1" from="//@elements.7" to="//@elements.9"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="285:270-285:270" name="P7toT0" from="//@elements.8" to="//@elements.1"/>
+</PetriNet:PetriNet>

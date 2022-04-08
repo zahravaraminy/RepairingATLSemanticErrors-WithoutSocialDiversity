@@ -1,0 +1,1 @@
+org.eclipse.emf.compare.internal.spec.AttributeChangeSpec{attribute=Named.name,value=String_ emailAddresses,kind=CHANGE,source=LEFT,state=UNRESOLVED}

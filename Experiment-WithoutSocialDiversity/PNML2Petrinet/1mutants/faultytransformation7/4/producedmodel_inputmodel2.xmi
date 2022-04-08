@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<PetriNet:PetriNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PetriNet="PetriNet" name="GSPN3">
+  <elements xsi:type="PetriNet:Place" location="166:76-166:76" name="P0" incomingArc="//@arcs.5" outgoingArc="//@arcs.9 //@arcs.10"/>
+  <elements xsi:type="PetriNet:Place" location="166:241-166:241" name="P1" incomingArc="//@arcs.0" outgoingArc="//@arcs.11"/>
+  <elements xsi:type="PetriNet:Place" location="166:436-166:436" name="P2" incomingArc="//@arcs.3 //@arcs.7" outgoingArc="//@arcs.12"/>
+  <elements xsi:type="PetriNet:Place" location="481:76-481:76" name="P3" incomingArc="//@arcs.6" outgoingArc="//@arcs.13 //@arcs.14"/>
+  <elements xsi:type="PetriNet:Place" location="481:241-481:241" name="P4" incomingArc="//@arcs.2" outgoingArc="//@arcs.15"/>
+  <elements xsi:type="PetriNet:Place" location="481:436-481:436" name="P5" incomingArc="//@arcs.4 //@arcs.8" outgoingArc="//@arcs.16"/>
+  <elements xsi:type="PetriNet:Place" location="331:241-331:241" name="P6" incomingArc="//@arcs.1" outgoingArc="//@arcs.17"/>
+  <elements xsi:type="PetriNet:Transition" location="166:151-166:151" name="T0" incomingArc="//@arcs.9" outgoingArc="//@arcs.0"/>
+  <elements xsi:type="PetriNet:Transition" location="331:151-331:151" name="T1" incomingArc="//@arcs.10 //@arcs.13" outgoingArc="//@arcs.1"/>
+  <elements xsi:type="PetriNet:Transition" location="481:151-481:151" name="T2" incomingArc="//@arcs.14" outgoingArc="//@arcs.2"/>
+  <elements xsi:type="PetriNet:Transition" location="166:346-166:346" name="T3" incomingArc="//@arcs.11" outgoingArc="//@arcs.3"/>
+  <elements xsi:type="PetriNet:Transition" location="481:346-481:346" name="T4" incomingArc="//@arcs.15" outgoingArc="//@arcs.4"/>
+  <elements xsi:type="PetriNet:Transition" location="46:241-46:241" name="T5" incomingArc="//@arcs.12" outgoingArc="//@arcs.5"/>
+  <elements xsi:type="PetriNet:Transition" location="601:241-601:241" name="T6" incomingArc="//@arcs.16" outgoingArc="//@arcs.6"/>
+  <elements xsi:type="PetriNet:Transition" location="331:346-331:346" name="T7" incomingArc="//@arcs.17" outgoingArc="//@arcs.7 //@arcs.8"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="166:151-166:151" name="T0 to P1" from="//@elements.7" to="//@elements.1"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="331:151-331:151" name="T1 to P6" from="//@elements.8" to="//@elements.6"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="481:151-481:151" name="T2 to P4" from="//@elements.9" to="//@elements.4"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="166:346-166:346" name="T3 to P2" from="//@elements.10" to="//@elements.2"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="481:346-481:346" name="T4 to P5" from="//@elements.11" to="//@elements.5"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="46:241-46:241" name="T5 to P0" from="//@elements.12" to="//@elements.0"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="601:241-601:241" name="T6 to P3" from="//@elements.13" to="//@elements.3"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="331:346-331:346" name="T7 to P2" from="//@elements.14" to="//@elements.2"/>
+  <arcs xsi:type="PetriNet:TransitionToPlace" location="481:436-481:436" name="T7 to P5" from="//@elements.14" to="//@elements.5"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="166:76-166:76" name="P0 to T0" from="//@elements.0" to="//@elements.7"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="166:76-166:76" name="P0 to T1" from="//@elements.0" to="//@elements.8"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="166:241-166:241" name="P1 to T3" from="//@elements.1" to="//@elements.10"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="166:436-166:436" name="P2 to T5" from="//@elements.2" to="//@elements.12"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="481:76-481:76" name="P3 to T1" from="//@elements.3" to="//@elements.8"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="481:76-481:76" name="P3 to T2" from="//@elements.3" to="//@elements.9"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="481:241-481:241" name="P4 to T4" from="//@elements.4" to="//@elements.11"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="481:436-481:436" name="P5 to T6" from="//@elements.5" to="//@elements.13"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="331:241-331:241" name="P6 to T7" from="//@elements.6" to="//@elements.14"/>
+</PetriNet:PetriNet>

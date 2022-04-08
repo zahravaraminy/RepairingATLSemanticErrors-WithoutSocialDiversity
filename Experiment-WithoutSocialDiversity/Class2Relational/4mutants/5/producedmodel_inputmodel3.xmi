@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Relational:Schema xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Relational="Relational">
+  <tables name="User" key="//@tables.0/@col.0">
+    <col xsi:type="Relational:Type" name="objectId"/>
+  </tables>
+  <tables name="AdminUser" key="//@tables.1/@col.0">
+    <col xsi:type="Relational:Type" name="objectId"/>
+  </tables>
+  <tables name="Project" key="//@tables.2/@col.0">
+    <col xsi:type="Relational:Type" name="objectId"/>
+  </tables>
+  <tables name="Entity" key="//@tables.3/@col.0">
+    <col xsi:type="Relational:Type" name="objectId"/>
+  </tables>
+  <tables name="Attribute" key="//@tables.4/@col.0">
+    <col xsi:type="Relational:Type" name="objectId"/>
+  </tables>
+  <tables name="User_admin_user">
+    <col name="User" type="//@types.1"/>
+    <col name="admin_user" type="//@types.1"/>
+  </tables>
+  <tables name="User_project">
+    <col name="User" type="//@types.1"/>
+    <col name="project" type="//@types.1"/>
+  </tables>
+  <tables name="Project_entity">
+    <col name="Project" type="//@types.1"/>
+    <col name="entity" type="//@types.1"/>
+  </tables>
+  <tables name="Entity_attributes">
+    <col name="Entity" type="//@types.1"/>
+    <col name="attributes" type="//@types.1"/>
+  </tables>
+  <types name="String"/>
+  <types name="Integer"/>
+  <types name="Float"/>
+</Relational:Schema>

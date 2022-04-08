@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Class:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Class="http://www.example.org/Class">
+  <elems xsi:type="Class:Class" name="StateMachine">
+    <att name="events" multiValued="true" type="//@elems.1"/>
+    <att name="transitions" multiValued="true" type="//@elems.2"/>
+    <att name="states" multiValued="true" type="//@elems.3"/>
+    <att name="commands" multiValued="true" type="//@elems.4"/>
+    <att name="resetEvents" multiValued="true" type="//@elems.1"/>
+    <att name="name" type="//@elems.5"/>
+  </elems>
+  <elems xsi:type="Class:Class" name="Event">
+    <att name="name" type="//@elems.5"/>
+  </elems>
+  <elems xsi:type="Class:Class" name="Transition">
+    <att name="event" type="//@elems.1"/>
+    <att name="name" type="//@elems.5"/>
+  </elems>
+  <elems xsi:type="Class:Class" name="State">
+    <att name="transitions" multiValued="true" type="//@elems.2"/>
+    <att name="commands" multiValued="true" type="//@elems.4"/>
+    <att name="name" type="//@elems.5"/>
+  </elems>
+  <elems xsi:type="Class:Class" name="Command">
+    <att name="name" type="//@elems.5"/>
+  </elems>
+  <elems xsi:type="Class:DataType" name="String"/>
+</Class:Package>

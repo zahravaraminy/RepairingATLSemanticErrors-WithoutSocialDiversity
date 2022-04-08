@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Relational:Schema xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Relational="Relational">
+  <tables name="StateMachine" key="//@tables.0/@col.0">
+    <col name="objectId"/>
+    <col name="name" type="//@types.0"/>
+  </tables>
+  <tables name="Event" key="//@tables.1/@col.0">
+    <col name="objectId"/>
+    <col name="name" type="//@types.0"/>
+  </tables>
+  <tables name="Transition" key="//@tables.2/@col.0">
+    <col name="objectId"/>
+    <col name="eventId"/>
+    <col name="name" type="//@types.0"/>
+  </tables>
+  <tables name="State" key="//@tables.3/@col.0">
+    <col name="objectId"/>
+    <col name="name" type="//@types.0"/>
+  </tables>
+  <tables name="Command" key="//@tables.4/@col.0">
+    <col name="objectId"/>
+    <col name="name" type="//@types.0"/>
+  </tables>
+  <tables name="StateMachine_events">
+    <col name="StateMachine"/>
+    <col name="events"/>
+  </tables>
+  <tables name="StateMachine_transitions">
+    <col name="StateMachine"/>
+    <col name="transitions"/>
+  </tables>
+  <tables name="StateMachine_states">
+    <col name="StateMachine"/>
+    <col name="states"/>
+  </tables>
+  <tables name="StateMachine_commands">
+    <col name="StateMachine"/>
+    <col name="commands"/>
+  </tables>
+  <tables name="StateMachine_resetEvents">
+    <col name="StateMachine"/>
+    <col name="resetEvents"/>
+  </tables>
+  <tables name="State_transitions">
+    <col name="State"/>
+    <col name="transitions"/>
+  </tables>
+  <tables name="State_commands">
+    <col name="State"/>
+    <col name="commands"/>
+  </tables>
+  <types name="String"/>
+</Relational:Schema>

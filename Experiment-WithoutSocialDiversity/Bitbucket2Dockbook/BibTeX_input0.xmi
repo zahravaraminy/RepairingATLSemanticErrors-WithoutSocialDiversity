@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bibtex:BibTeXFile xmi:version="2.0" 
+xmlns:xmi="http://www.omg.org/XMI" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:bibtex="http://BibTeX/1.0" 
+xsi:schemaLocation="http://BibTeX/1.0 BibTeX.ecore#/1">
+  <entries xsi:type="bibtex:Article" id="ohkmyjdriw" year="2004" title="Uppaal in a nutshell" journal="Information and Software Technology">
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="bibtex:Article" id=" yqivppz-d" year="1995" title="Complexity measure" journal="Software and Systems Modeling">
+    <authors author="Wang Yi"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="bibtex:Article" id="pbgeahjouo" year="1991" title="Program slicing" journal="Journal of Systems and Software">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="bibtex:Article" id="ppfkmoqzvi" year="1994" title="QoS-aware middleware for Web services composition" journal="Journal of Systems and Software">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="bibtex:Article" id="re-yak phw" year="1984" title="QoS-aware middleware for Web services composition" journal="Journal of Systems and Software">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="bibtex:Unpublished" id="eolp aupj " title="Uppaal in a nutshell" note="wlffv_rrjn">
+    <authors author="Paul Pettersson"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="bibtex:Unpublished" id="yqnupnfril" title="An intrusion-detection model" note="jtvccoyrwg">
+    <authors author="Martin Fowler"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="bibtex:Unpublished" id="eholixj_vt" title="QoS-aware middleware for Web services composition" note="ivobxxqjea">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="bibtex:Book" id="ddxqsigapd" year="1995" title="Program slicing" publisher="mx e-wz r-">
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="bibtex:Book" id="ezwvcn rft" year="1984" title="4 + 1 view model of architecture" publisher="amyfsghnku">
+    <authors author="Martin Fowler"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="bibtex:Book" id="l_ jnoz_e_" year="2000" title="Uppaal in a nutshell" publisher="-rbfexrqes">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="bibtex:MasterThesis" id="b_khpq_hrs" year="1997" title="Uppaal in a nutshell" school="v snnz_kmz">
+    <authors author="Martin Fowler"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="bibtex:MasterThesis" id="lmryyyfo-g" year="1997" title="A metrics suite for object oriented design" school="rgh-qchham">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="bibtex:MasterThesis" id="uzg _emfql" year="1997" title="An intrusion-detection model" school="ftelr-zbab">
+    <authors author="Wang Yi"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+</bibtex:BibTeXFile>

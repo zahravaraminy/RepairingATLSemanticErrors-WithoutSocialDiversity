@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ASCII"?>
+<docbook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:docbook="docbook">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <sections_2 xsi:type="docbook:Para" content="[ yqivppz-d] Article Complexity measure Wang Yi Bruce Schneier 1995 Software and Systems Modeling"/>
+        <sections_2 xsi:type="docbook:Para" content="[b_khpq_hrs] MasterThesis Uppaal in a nutshell Martin Fowler Richard N. Taylor 1997 v snnz_kmz"/>
+        <sections_2 xsi:type="docbook:Para" content="[ddxqsigapd] Book Program slicing Chris F. Kemerer 1995 mx e-wz r-"/>
+        <sections_2 xsi:type="docbook:Para" content="[eholixj_vt] Unpublished QoS-aware middleware for Web services composition Liangzhao Zeng Philippe Kruchten Shyam R. Chidamber Wang Yi ivobxxqjea"/>
+        <sections_2 xsi:type="docbook:Para" content="[eolp aupj ] Unpublished Uppaal in a nutshell Paul Pettersson Steve McConnell Dorothy E. Denning wlffv_rrjn"/>
+        <sections_2 xsi:type="docbook:Para" content="[ezwvcn rft] Book 4 + 1 view model of architecture Martin Fowler Liangzhao Zeng Erich Gamma 1984 amyfsghnku"/>
+        <sections_2 xsi:type="docbook:Para" content="[l_ jnoz_e_] Book Uppaal in a nutshell Thomas M. J. Fruchterman Marlon Dumas Martin Fowler Paul Pettersson 2000 -rbfexrqes"/>
+        <sections_2 xsi:type="docbook:Para" content="[lmryyyfo-g] MasterThesis A metrics suite for object oriented design Thomas M. J. Fruchterman Craig Larman 1997 rgh-qchham"/>
+        <sections_2 xsi:type="docbook:Para" content="[ohkmyjdriw] Article Uppaal in a nutshell Paul Pettersson 2004 Information and Software Technology"/>
+        <sections_2 xsi:type="docbook:Para" content="[pbgeahjouo] Article Program slicing Donald E. Knuth Marlon Dumas Chris F. Kemerer Martin Fowler 1991 Journal of Systems and Software"/>
+        <sections_2 xsi:type="docbook:Para" content="[ppfkmoqzvi] Article QoS-aware middleware for Web services composition Edward N. Reingold Shyam R. Chidamber Steve McConnell Paul Pettersson 1994 Journal of Systems and Software"/>
+        <sections_2 xsi:type="docbook:Para" content="[re-yak phw] Article QoS-aware middleware for Web services composition Nenad Medvidovic Dorothy E. Denning Nenad Medvidovic Wang Yi 1984 Journal of Systems and Software"/>
+        <sections_2 xsi:type="docbook:Para" content="[uzg _emfql] MasterThesis An intrusion-detection model Wang Yi Bruce Schneier 1997 ftelr-zbab"/>
+        <sections_2 xsi:type="docbook:Para" content="[yqnupnfril] Unpublished An intrusion-detection model Martin Fowler Chris F. Kemerer Thomas M. J. Fruchterman Gerard J. Holzmann jtvccoyrwg"/>
+      </sections_1>
+      <sections_1 title="Authors list">
+        <paras content="Bruce Schneier"/>
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Craig Larman"/>
+        <paras content="Donald E. Knuth"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Richard N. Taylor"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Steve McConnell"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="4 + 1 view model of architecture"/>
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="An intrusion-detection model"/>
+        <paras content="Complexity measure"/>
+        <paras content="Program slicing"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="Information and Software Technology"/>
+        <paras content="Journal of Systems and Software"/>
+        <paras content="Software and Systems Modeling"/>
+      </sections_1>
+    </articles>
+  </books>
+</docbook:DocBook>

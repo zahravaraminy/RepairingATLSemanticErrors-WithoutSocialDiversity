@@ -1,0 +1,90 @@
+-- @path SimpleUml=/example.tracts/uml2er/metamodels/SimpleUml.ecore
+-- @path ER=/example.tracts/uml2er/metamodels/ER.ecore
+-- @atlcompiler emftvm
+module SimpleUml2ER;
+create OUT : ER from IN : SimpleUml;
+
+abstract rule NamedElement {
+ from
+  s : SimpleUml!NamedElement
+ to
+  t : ER!Element (
+   name <- s.name
+  )
+}
+
+rule Package extends NamedElement {
+ from
+  s : SimpleUml!Package
+ to
+  t : ER!ERModel (
+   name <- s.name,
+   entities <- Sequence {}
+  )
+}
+
+rule Class extends NamedElement {
+ from
+  s : SimpleUml!Class
+ to
+  t : ER!EntityType (
+   features <- s.ownedProperty
+  )
+}
+
+abstract rule Property extends NamedElement {
+ from
+  s : SimpleUml!Property
+ to
+  t : ER!Feature
+}
+
+rule Attributes extends Property {
+ from
+  s : SimpleUml!Property
+  (
+   not s.primitiveType.oclIsUndefined() and s.complexType.oclIsUndefined()
+  )
+ to
+  t : ER!Attribute (
+   type <- s.primitiveType
+  )
+}
+
+rule References extends Property {
+ from
+  s : SimpleUml!Class
+  (
+   not s.complexType.oclIsUndefined()
+  )
+ to
+  t : ER!Reference (
+   type <- s.complexType
+  )
+}
+
+rule WeakReferences extends References {
+ from
+  s : SimpleUml!Property
+  (
+   not s.isContainment
+  )
+ to
+  t : ER!WeakReference
+}
+
+rule StrongReferences extends References {
+ from
+  s : SimpleUml!Property
+  (
+   s.isContainment
+  )
+ to
+  t : ER!StrongReference
+}
+
+-- MUTATION "OutPattern Element Modification" from t:ERModel to t:EntityType (line 32:1-34:2 of original transformation)
+
+
+-- MUTATION "Navigation Modification" from s.ownedElements to s.name (line 22:9-22:24 of original transformation)
+

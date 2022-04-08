@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<docbook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:docbook="docbook">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras xsi:type="docbook:DocBook"/>
+        <paras xsi:type="docbook:DocBook"/>
+        <paras xsi:type="docbook:DocBook"/>
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras/>
+      </sections_1>
+      <sections_1 title="Authors list">
+        <paras content="Bruce Schneier"/>
+        <paras content="Craig Larman"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Kim G. Larsen"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Richard N. Taylor"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras/>
+        <paras/>
+        <paras/>
+      </sections_1>
+    </articles>
+  </books>
+</docbook:DocBook>

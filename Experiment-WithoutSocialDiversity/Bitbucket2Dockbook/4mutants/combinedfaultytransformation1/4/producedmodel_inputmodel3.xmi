@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docbook="docbook">
+  <docbook:DocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[gn_bdcfqwa] Article Program slicing Robert C. Martin Paul Pettersson Paul Pettersson 1984 Software and Systems Modeling"/>
+          <paras content="[h_vx-fsla ] Article The model checker SPIN Kim G. Larsen Gerard J. Holzmann Kim G. Larsen Elisabeth Freeman 2000 Software and Systems Modeling"/>
+          <paras content="[jk-reyr_im] InBook The model checker SPIN Martin Fowler Marlon Dumas Gerard J. Holzmann 1997 ri-u-iwlsg 9"/>
+          <paras content="[nkcycmco-e] Article An intrusion-detection model Paul Pettersson Marlon Dumas Edward N. Reingold 1991 Information and Software Technology"/>
+          <paras content="[x-lueehuvi] InBook The model checker SPIN Paul Pettersson Shyam R. Chidamber Philippe Kruchten Dorothy E. Denning 2004 xv_nis_xxt 60"/>
+          <paras content="[yhdqfdtgl_] Article The model checker SPIN Richard N. Taylor 1984 IEEE Transactions on Software Engineering"/>
+          <paras content="[zdjzb sri ] InCollection Program slicing Bruce Schneier Gerard J. Holzmann 2004 _uuqfbsh p x-gl-umnk_"/>
+        </sections_1>
+        <sections_1 title="Authors list">
+          <paras content="Bruce Schneier"/>
+          <paras content="Craig Larman"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Shyam R. Chidamber"/>
+        </sections_1>
+        <sections_1 title="Titles List"/>
+        <sections_1 title="Journals List">
+          <paras content="IEEE Transactions on Software Engineering"/>
+          <paras content="Information and Software Technology"/>
+          <paras content="Software and Systems Modeling"/>
+        </sections_1>
+      </articles>
+    </books>
+  </docbook:DocBook>
+  <docbook:Para content="Program slicing"/>
+  <docbook:Para content="An intrusion-detection model"/>
+  <docbook:Para content="The model checker SPIN"/>
+</xmi:XMI>

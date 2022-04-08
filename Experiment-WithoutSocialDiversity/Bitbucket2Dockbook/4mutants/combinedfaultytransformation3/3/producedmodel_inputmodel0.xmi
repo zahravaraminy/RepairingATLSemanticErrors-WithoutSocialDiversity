@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docbook="docbook">
+  <docbook:DocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[ yqivppz-d] Article Complexity measure Wang Yi Bruce Schneier 1995 Software and Systems Modeling"/>
+          <paras content="[b_khpq_hrs] MasterThesis Uppaal in a nutshell Martin Fowler Richard N. Taylor 1997 v snnz_kmz"/>
+          <paras content="[ddxqsigapd] Book Program slicing Chris F. Kemerer 1995 mx e-wz r-"/>
+          <paras content="[eholixj_vt] Unpublished QoS-aware middleware for Web services composition Liangzhao Zeng Philippe Kruchten Shyam R. Chidamber Wang Yi ivobxxqjea"/>
+          <paras content="[eolp aupj ] Unpublished Uppaal in a nutshell Paul Pettersson Steve McConnell Dorothy E. Denning wlffv_rrjn"/>
+          <paras content="[l_ jnoz_e_] Book Uppaal in a nutshell Thomas M. J. Fruchterman Marlon Dumas Martin Fowler Paul Pettersson 2000 -rbfexrqes"/>
+          <paras content="[ohkmyjdriw] Article Uppaal in a nutshell Paul Pettersson 2004 Information and Software Technology"/>
+          <paras content="[pbgeahjouo] Article Program slicing Donald E. Knuth Marlon Dumas Chris F. Kemerer Martin Fowler 1991 Journal of Systems and Software"/>
+          <paras content="[ppfkmoqzvi] Article QoS-aware middleware for Web services composition Edward N. Reingold Shyam R. Chidamber Steve McConnell Paul Pettersson 1994 Journal of Systems and Software"/>
+          <paras content="[re-yak phw] Article QoS-aware middleware for Web services composition Nenad Medvidovic Dorothy E. Denning Nenad Medvidovic Wang Yi 1984 Journal of Systems and Software"/>
+          <paras content="[uzg _emfql] MasterThesis An intrusion-detection model Wang Yi Bruce Schneier 1997 ftelr-zbab"/>
+        </sections_1>
+        <sections_1 title="Authors list">
+          <paras content="Bruce Schneier"/>
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Steve McConnell"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List"/>
+        <sections_1 title="Journals List">
+          <paras content="Information and Software Technology"/>
+          <paras content="Journal of Systems and Software"/>
+          <paras content="Software and Systems Modeling"/>
+        </sections_1>
+      </articles>
+    </books>
+  </docbook:DocBook>
+  <docbook:Para content="Uppaal in a nutshell"/>
+  <docbook:Para content="Complexity measure"/>
+  <docbook:Para content="Program slicing"/>
+  <docbook:Para content="Journal of Systems and Software"/>
+</xmi:XMI>

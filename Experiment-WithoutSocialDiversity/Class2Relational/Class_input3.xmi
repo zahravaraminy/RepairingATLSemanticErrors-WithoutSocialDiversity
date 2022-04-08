@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Class:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Class="http://www.example.org/Class">
+  <elems xsi:type="Class:DataType" name="String"/>
+  <elems xsi:type="Class:DataType" name="Integer"/>
+  <elems xsi:type="Class:DataType" name="Float"/>
+  <elems xsi:type="Class:Class" name="User">
+    <att name="first_name" type="//@elems.0"/>
+    <att name="last_name" type="//@elems.0"/>
+    <att name="uid" type="//@elems.1"/>
+    <att name="user_name" type="//@elems.0"/>
+    <att name="admin_user" multiValued="true" type="//@elems.4"/>
+    <att name="project" multiValued="true" type="//@elems.5"/>
+  </elems>
+  <elems xsi:type="Class:Class" name="AdminUser">
+    <att name="role" type="//@elems.0"/>
+    <att name="key"/>
+  </elems>
+  <elems xsi:type="Class:Class" name="Project">
+    <att name="description" type="//@elems.0"/>
+    <att name="id" type="//@elems.1"/>
+    <att name="entity" multiValued="true" type="//@elems.6"/>
+  </elems>
+  <elems xsi:type="Class:Class" name="Entity">
+    <att name="description" type="//@elems.0"/>
+    <att name="id" type="//@elems.1"/>
+    <att name="number" type="//@elems.1"/>
+    <att name="attributes" multiValued="true" type="//@elems.7"/>
+  </elems>
+  <elems xsi:type="Class:Class" name="Attribute">
+    <att name="description" type="//@elems.0"/>
+    <att name="type"/>
+  </elems>
+</Class:Package>

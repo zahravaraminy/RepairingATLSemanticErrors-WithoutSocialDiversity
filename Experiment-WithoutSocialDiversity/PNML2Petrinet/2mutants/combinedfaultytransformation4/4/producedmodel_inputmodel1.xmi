@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<PetriNet:PetriNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PetriNet="PetriNet" name="ClassicGSPN">
+  <elements xsi:type="PetriNet:Place" location="135:120-138:121" name="P0" outgoingArc="//@arcs.0"/>
+  <elements xsi:type="PetriNet:Place" location="375:120-378:121" name="P1" outgoingArc="//@arcs.1"/>
+  <elements xsi:type="PetriNet:Place" location="255:315-255:315" name="P2" outgoingArc="//@arcs.2"/>
+  <elements xsi:type="PetriNet:Transition" location="255:120-255:120" name="dummy"/>
+  <elements xsi:type="PetriNet:Transition" location="330:225-330:225" name="dummy"/>
+  <elements xsi:type="PetriNet:Transition" location="180:225-180:225" name="dummy"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="135:15-120:32" name="P0 to T0" from="//@elements.0"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="375:120-375:120" name="P1 to T1" from="//@elements.1"/>
+  <arcs xsi:type="PetriNet:PlaceToTransition" location="255:315-255:315" name="P2 to T2" from="//@elements.2"/>
+</PetriNet:PetriNet>

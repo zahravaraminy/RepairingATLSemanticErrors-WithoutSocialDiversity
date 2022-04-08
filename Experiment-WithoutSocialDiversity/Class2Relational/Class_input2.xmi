@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Class:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Class="http://www.example.org/Class">
+  <elems xsi:type="Class:Class" name="Bank">
+    <att name="clients" multiValued="true" type="//@elems.1"/>
+    <att name="managers" multiValued="true" type="//@elems.2"/>
+    <att name="accounts" multiValued="true" type="//@elems.3"/>
+  </elems>
+  <elems xsi:type="Class:Class" name="Client">
+    <att name="manager" type="//@elems.1"/>
+    <att name="accounts" multiValued="true" type="//@elems.3"/>
+    <att name="name" type="//@elems.6"/>
+  </elems>
+  <elems xsi:type="Class:Class" name="Manager">
+    <att name="clients" multiValued="true" type="//@elems.1"/>
+    <att name="name" type="//@elems.6"/>
+  </elems>
+  <elems xsi:type="Class:Class" name="Account">
+    <att name="owner" type="//@elems.1"/>
+    <att name="id" type="//@elems.4"/>
+    <att name="credit" type="//@elems.5"/>
+  </elems>
+  <elems xsi:type="Class:DataType" name="Integer"/>
+  <elems xsi:type="Class:DataType" name="Float"/>
+  <elems xsi:type="Class:DataType" name="String"/>
+</Class:Package>

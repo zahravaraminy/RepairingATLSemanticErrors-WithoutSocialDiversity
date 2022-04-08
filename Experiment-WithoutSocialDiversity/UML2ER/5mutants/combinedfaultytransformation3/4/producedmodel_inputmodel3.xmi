@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ER="http://er">
+  <ER:ERModel name="dummy">
+    <entities name="LrSqR1v6sAHNCpfgoxJPmAKnJbU71lZi9hP06L57byroU271Zva7eY6rDa0KIi1n1Pc"/>
+    <entities name="DsATvk08HqjGY5XyIZ1Z3cyoxaDxTeOK17fH0CxSaFtMpYGcFGvDmRvrX8"/>
+    <entities name="TaivTQOEZG7wNwRjO17H7RHsymykrAhaZznr5tC8jRgvdCJ0AdJwx5kS9dY2NP5ncGt"/>
+    <entities name="IeocIc0dke4wWVo6aOcKaKNwvh0XVI8MYP9v4UjILGdw4F4Z0gC5iH4OMsfZcGswP"/>
+    <entities name="Cflo3UYaARTp2K6IuzthxgKOY15zEDexI9mw3RyUZkWSFs2C4jtshas1kn"/>
+    <entities name="Mrd64KO8B7jy97QhFquA0J2ijewHVv2mFVRw2cfYNHeWE1bsqvaf9V301UOPYC4"/>
+    <entities name="yss4fNSJMwq550QGdE3ad8SzgiPZby1sA48ZsrmAaP0aTCnC7fyP3zM3hkZcAcAx37k"/>
+    <entities name="BMEELQ27J2BA4752qF0KcNflDRpOGKaZnq9MQgGF6vdj4ZBPWMtMedANE2TVI"/>
+    <entities name="bF1yowRnBi1sD7I45nKV4Zp3OILwBCbsY1wGAr2v2jQjJJzjryppbrr0QZKtd"/>
+    <entities name="WVNbVvcBJAsmcCVjEIdwZ9oJLOcYOBBN2uFAEzOiHk2kI6zcJGJhoWyIytCSGXGy0CfY"/>
+    <entities name="5uivybZwqSOaUAicZKrCzVjhBH1NgB114wfblbGL5Dt4VQFiSAEJ0mFiRvHDIfxm"/>
+    <entities name="IU7sUbLdWSPj6G7uYktwZq5yhfoAPNPKIPB2NoHV77A9j2r1Pfb7y2dlXJBEHF2eLxI"/>
+    <entities name="4W9jnrnQsPPpDcpkaMMAw4PVbO2oxtHSYQ6cH2BljLsLRSEZYBDuKEZCL1TODk0irC"/>
+    <entities name="MbE0aD03VRojzDwkmIQLP0bG4gW1kaJnBru4JMeNq8LwGLNXdlaV4cOrcW"/>
+    <entities name="xV3i3nS7ByJx7swyqe869USOjc6KKqhxx5ce6cwgtUmnTn6pGLrsG6OO2cPPy"/>
+    <entities name="WfGEiiLRfI3VsVQGcinN08qmGMqyD67XUSA1AQLm890YqupQWiyEFYM5DN8BNI20"/>
+    <entities name="8Xshx0M5w9HXK5hDUp7UXiizhwFtfAR5fApoAXnBj16sFFFXQQOCkGqYIOz"/>
+  </ER:ERModel>
+  <ER:WeakReference name="muw2t0yNmT17fZdpcK94WPY6Lya1hw9fviu0IjTuGXj8gPh8p0cC8fcepJMqaqz" type="/0/@entities.0"/>
+  <ER:WeakReference name="RiUvQevEaYayww0dxCu1s1qYEqs8nBgYU9Z31IvhOIsApRNgUPG44OhRpE8DPgAFPHe6fF" type="/0/@entities.6"/>
+  <ER:WeakReference name="mZfxkM3Fd6EOlZmxdgvhPhjL4AYe78ikoVMr9DdEyFUCVkYmCnR8CEtAmjhYhn8kTn" type="/0/@entities.5"/>
+  <ER:WeakReference name="WuEcbMnyHoBRR3GJWezNxyLB1oOWQwFJD3pztbklRo37YmuekBIpajZZnRAK6hVJ3RS" type="/0/@entities.4"/>
+  <ER:WeakReference name="9LQHrWpp7KjuDzJQis7EdVJQY7iQdqb0SGps7oJi6984G5MeFonCqy0DSpySQpJZJaqW4D" type="/0/@entities.6"/>
+  <ER:WeakReference name="V9H9NQzEc3leTEUaPzJUYpn480qhF5iVkMrm0v1uEtjsWfZNk12r8HueNHskzZE3t55Aad" type="/0/@entities.6"/>
+  <ER:WeakReference name="kmMw52EUOtjJtGMK3Drs2YY1UR18n2xQkPjGx4ahoWgaWseUwApQ7IflrknAhESgJ" type="/0/@entities.2"/>
+  <ER:WeakReference name="zCzXRI0RoLlEvWttGW8zQGvvWnvtAqmsB9YRsOfhrjXryGTFP9hI9jcCagu74" type="/0/@entities.2"/>
+  <ER:WeakReference name="gRft6mtr77tF5JZ4bAQqeMVuX2vKMnqSZw1yecKYLNR9DxSdMki2DskA2t0" type="/0/@entities.3"/>
+  <ER:WeakReference name="KyO97WJpQr6gcwNEHiFqeqeAOM1PE5MNttKmn6hdznHIFITVU1j7wY8rEF67aRgAcMk" type="/0/@entities.6"/>
+  <ER:WeakReference name="gCxUXPurGaWIQlsxoQlhcWX3c1iQcPnjq4y4KVDS9vJS4Evg1mtHGIVFMt2epp" type="/0/@entities.7"/>
+  <ER:WeakReference name="7zAndCC1Gg0plpkvK3t3TO3X2ljjq1tY2Q5I5Mm44BcaOQ7AlAKHC69K1y0ATRSC" type="/0/@entities.4"/>
+  <ER:WeakReference name="IxI5Vry3T8JbS1FpVpsbkPH33aw0SMLperEVv4Fw4bRXlDDp8XHrlnnVKFAeXWNbkDE" type="/0/@entities.3"/>
+  <ER:WeakReference name="1rfuvXOLUHQMOItkSdzXtfIJGs8h0xblFB7dmjHHl5GCRic8gxT1hy8N39UNDGcI" type="/0/@entities.2"/>
+  <ER:WeakReference name="FF3Zbk97GYKv7UJXabivtFwGwJ7yVqzRENFiMiQGx2rAeGMLuRr08Wu8E8Fzi" type="/0/@entities.1"/>
+  <ER:WeakReference name="YuCvyYCpI9jFNQHv029dVJxtHJHUbLdrR6QAIQBUTmAeX1H3graTG2Oxw8Zsf9DaJjV" type="/0/@entities.1"/>
+  <ER:WeakReference name="bqm7i5zHos8mcLiyE30m3eFpqc5wlYPrlK0F7CTZGmmODZTankMFkmhefJowdwvOQ74" type="/0/@entities.0"/>
+  <ER:WeakReference name="TMyGNe0QhYz0cUDDDFK1PGkAWa3OgzHZlAkolubZbnVibQFQWvNMXzrZaXYUPS" type="/0/@entities.4"/>
+  <ER:WeakReference name="XYOYQomntGI7fr3HLPuijGmNt7mZf0KFMNknAAHQ9Vbxyj2MRdqae7TlLwautJzw" type="/0/@entities.5"/>
+  <ER:WeakReference name="tLrJIgKghfp91SY4JgtMTznCMFJSJAtScT3JKzctQJUI36efCOsAdYu2lfA0LeO2" type="/0/@entities.0"/>
+  <ER:StrongReference name="saRKVo7u7Axl8bnKsv4N7d5WL2mLH3Rln4sokQ9rPirXYrPNgY1wvua5BJH8o9OrEiv" type="/0/@entities.5"/>
+  <ER:StrongReference name="N7rRg3ekPqC2KAVbTreA0GfANlijH4ZYTFVENza3aCUXYurFMxdTNFka2LshYGM3No" type="/0/@entities.1"/>
+  <ER:StrongReference name="ntZTTu1zMK8ARcHcmN4AZGIrsc1wVdpGapFadXSMwIOUQC3VtbR2WQCOewS" type="/0/@entities.5"/>
+  <ER:StrongReference name="ZZV82fuGxdBscU0wGh9VKznnyQD0GwL9kEbFoRvA2Ycdt6n6FFABa6bXbMNhAH7Hkc" type="/0/@entities.3"/>
+  <ER:StrongReference name="N19jq3WyexziIPYaFQOIhSXHNpbskDBjWLYOoF2fgx2BcbixMwaAdp8KQod" type="/0/@entities.3"/>
+  <ER:StrongReference name="SZdKv6NVo0s744OHSLaj9BUes8aNLx4WlcuCsZHuJ9mOljtSQ2nB5lXFm1n76gsu" type="/0/@entities.6"/>
+  <ER:StrongReference name="6gsjvS7ElSUvref3vPDdgoQ9Rfsecdd1QmUAEVybgqeNkmoUteCkgWahg1LuIKkF92I0" type="/0/@entities.4"/>
+  <ER:StrongReference name="O90yE7ORdBSBIyjoj6OaORfTDTbdJHXzRKLaCPN7X2uqAMpmvy1ejSYUWvaV7cXgY" type="/0/@entities.5"/>
+  <ER:StrongReference name="yLZYpJvBztGCZ4azhyj4itK2Kmo2bDXbsqGMpZVK3ldcU1vNz33vrW0a6JE3" type="/0/@entities.0"/>
+  <ER:StrongReference name="jG6I3I6sjoY0JAho6HbxCy5I4cHPggsmTXhTJFpgHcTVSnEG7LWuLuGhAZVQ6" type="/0/@entities.6"/>
+  <ER:StrongReference name="2RewaAEuGYjgooUemEhs0LVskqPNjqrbrfm8aFrXpEy69ldKI5deZuP3ZSkZ" type="/0/@entities.4"/>
+  <ER:StrongReference name="0VFVbeB16IlxBLX2lZqsi8M42aCWvhgd6duoFEjhIzi2DWh7gVh8xRpJx9LWymjtKdw5w" type="/0/@entities.3"/>
+  <ER:StrongReference name="erkYnIe9P2xAehxiKmu0LqxORWWUUXndRz6FTtJlbeWOS9AUECzbaPdt2PKMx78FpZ" type="/0/@entities.6"/>
+  <ER:StrongReference name="BEkFGexf8wbScL95tvgHmP7vYVC7Eja6IDEVc1hxqQGe4EmnupI36Ze1te" type="/0/@entities.2"/>
+  <ER:StrongReference name="hLbfYG2I1doxlTcELsOscU4hsbDQsn0pNlzHAVzMbtjVaiqYx4JlSCRiBY" type="/0/@entities.5"/>
+  <ER:StrongReference name="0njNEOLTI90nJe5XdYVb8q3GiZDpAjB2ELrWkqxCO66pZ9NN92Frfhw9YjHXX" type="/0/@entities.0"/>
+  <ER:StrongReference name="aUEf4s27GSQNtqTlDnPpHBMAb4lOdQxpCP5lIe9X8lFsRRVyBDtcirVRdi" type="/0/@entities.0"/>
+</xmi:XMI>

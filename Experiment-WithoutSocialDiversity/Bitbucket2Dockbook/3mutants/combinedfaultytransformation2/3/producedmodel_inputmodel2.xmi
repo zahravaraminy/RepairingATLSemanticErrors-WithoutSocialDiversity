@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:docbook="docbook">
+  <docbook:DocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras/>
+          <paras/>
+          <paras/>
+        </sections_1>
+        <sections_1 title="Authors list"/>
+        <sections_1 title="Titles List"/>
+        <sections_1 xsi:type="docbook:DocBook"/>
+      </articles>
+    </books>
+  </docbook:DocBook>
+  <docbook:Para/>
+</xmi:XMI>

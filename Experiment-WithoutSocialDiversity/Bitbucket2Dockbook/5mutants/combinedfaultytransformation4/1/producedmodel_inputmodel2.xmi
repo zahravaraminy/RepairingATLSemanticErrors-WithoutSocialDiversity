@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="ASCII"?>
+<docbook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:docbook="docbook">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras xsi:type="docbook:DocBook"/>
+        <paras xsi:type="docbook:DocBook"/>
+        <paras xsi:type="docbook:DocBook"/>
+        <paras xsi:type="docbook:DocBook"/>
+        <paras xsi:type="docbook:DocBook"/>
+        <paras xsi:type="docbook:DocBook"/>
+        <paras xsi:type="docbook:DocBook"/>
+        <paras xsi:type="docbook:DocBook"/>
+        <paras xsi:type="docbook:DocBook"/>
+        <paras content="[XOjtjcpvY9SUhrHR5ppm4cpfKn0FNZQAxxI1fGuqjIITN7VTbOn9lAIpY8r8UpPFrCWT] Misc"/>
+        <paras xsi:type="docbook:DocBook"/>
+        <paras xsi:type="docbook:DocBook"/>
+        <paras xsi:type="docbook:DocBook"/>
+        <paras xsi:type="docbook:DocBook"/>
+        <paras xsi:type="docbook:DocBook"/>
+        <paras content="[stOTsYjv72DDfLptgIOFdIS7ghEpfjEocKbcoJN61G1Swik7Nz8SoIFm1R9fGFGYDhKMNM] Booklet lWmLevAIr4BbzJBUyoX4BTfKzDFgpYJyvM6powZgaE79hgNXaGL2KW8TG5F27jwQXX"/>
+      </sections_1>
+      <sections_1 title="Authors list">
+        <paras content="1sCNrwakUbd8PSRyMANUeSdYqQhcgDheLM4HQwun8mMFnR9dstEh0kNQCeseLw9lFX"/>
+        <paras content="21zq7ziyxQoYvhfd3c0ajXnqGOhLAtyO5pYkxLFJBMMoXjD97wQpzQsEuthQR6Ln"/>
+        <paras content="30OR84oGnaqurhZWoOm1VWTZRh2bKm8W2a69kHfe4cFtFChEYbcR2xB0U5F6omCvj"/>
+        <paras content="3EEOCqn9QnPAw8tFnlvYEJiVviiFYLjtmkK33RG98sJVHSG8BBrT1bbGQK"/>
+        <paras content="3GrLTIo2Ak5teDqD1zxOWCtESij78EE9do7dIQlHp0zBhdLBWSEaG6vzKS0"/>
+        <paras content="6U8g2TyJwfEIC4iTy2jtzXVdToOkLj0hNubiwY1kD07KfVZLjS3P5WzvKH6LjHs"/>
+        <paras content="7R0ZYTVjWxSVJndtA1N18NHQW9Tftg3lC4bNrv2OKN79Av9MHU3NEmyxeDlbTBC"/>
+        <paras content="9M7S4ZH2O9lZ1LXXgOgTktTVEs92agJz46ZEoo0BhVCP21MgMTqTXLTL3q521n0cr"/>
+        <paras content="A4kdqFjmAWxsZ0a5amikoodQgn2GO0vjYrMfYUk6Z0cAnMQn3E7HvKxUdKy"/>
+        <paras content="AsUNaqDpV30O7HF6gBQvhdjlOftIltqZeEnzgxTnRONa9eXcMa0rfFzjgfQxqbzTbf"/>
+        <paras content="Bibqh8aNVao8SV2lXCZtXs9us5knc07EfiTNj17ngKyW9wnT5xdJkSfnBDe12"/>
+        <paras content="BlPrEZ2prX1rTN9C64I92mACTWPbfbju0SPI4UY5xl4CaHx2ZY851ZR5mAK0na6YFp"/>
+        <paras content="CnpzrnIzOKMxo9E1w5ctVa2FodFhUjIttffDHU3znrG6YoktqET5gekI913W9RlU5"/>
+        <paras content="DbTtorHf5HQUzG6rNYYOVDWHT6wblJmx66suv3FfdrsgmWKDEuvL1qkgqwKB01FDarQ"/>
+        <paras content="GFOh3m00907l5M5zynZdoH8xWlmBwj4x1Chq0XtlZui1gZcR4wgOlHqP49UjQnhOH0hIwP"/>
+        <paras content="GUtw53Vz6y5fOLHlX3ohiUbB69c4hpmQtDyzjXt7uE0DJg3OapaiTKGGFw7XjRXabj9D"/>
+        <paras content="GrodQDYmCwICCOQsIf4G3k3lMGxVNTbWIZhRKiKytD2DqsmHss82pL6m14LYEKcmget2"/>
+        <paras content="H4hOJJKcJneVJqF6d0ZdMmbX2rnt6oXNQWLWhdNk6j2B55rIV7ipzRbflJYMgtwRTb"/>
+        <paras content="I0E4EtAYkWVlEDxjgEKsgVWxl2qPciC7Jbe3XCP6WESmq6YU1H6npjBci9"/>
+        <paras content="I7jktsbcmfFSGtzxHsWJhkeG9rkH7VkRAVsymqVNBT0NTvQkMdWgQpT6CzB"/>
+        <paras content="IaxQOBDwHFhes2HR8FzDKv1hkraE9Gr7N77S3eSNvopO1w8T1c7ZRMblQoS0"/>
+        <paras content="J3rGgSjEb0hzU9xpfGpq8YkOSV2ZXmpfJq7OLWRGk8ro4uZ5lYPVuL8eJYqI1bVFy4BvT"/>
+        <paras content="JJw2FOiXYlJ8wzAWA1Li6NYj5izAjph2Rua97NE5WHqPn3iGs2oO9rU7At6XJ821Plqy"/>
+        <paras content="KqcDg9HtDuyjzNg70KjCxlkYax4JcW6WcC4JnfghIIguUDmU0G7GscdjZ4c7o7YahcG"/>
+        <paras content="LZZ8Xr6VUGD7z9CQihuPjWmupb2safud0zISAgWKAvvskiGaUaY2HbHcgZhLL2hU2NVi"/>
+        <paras content="MLO3DNYtl0hkfMkSO8cSEmAS5KxvRCLWgAVdq26hQauJ2aotJgJofdRIsvoA"/>
+        <paras content="Mrur5JIEAyX4n2OnGlAWyffca9DuHtKU6BltoJrl7VUHpRUD6vFD7yVuhxSkNb"/>
+        <paras content="NiNzKyV40eibiB9gLX1fUPLchY7ljChXcN6hGXCppV8BYqogviKeWHNxw9wLJZVorgpCy"/>
+        <paras content="NtJwGh7VAzB1kH5voRHZRzJxHwnJGrXKDUNsejQT7T0hkTgXq3mLbrnnoru3"/>
+        <paras content="O6uZxInxTGrkr5nSQWG7PybxEY1ANIWL0Dl2nCRg60OYdw4dCpMeXKfNvoQJnoPJ"/>
+        <paras content="OLSvoO6Ojfsdow97LMW02rSiFJuz06gL6fuaRSeXUqjYCwOsbLTzIsCdMDs5APj"/>
+        <paras content="OzE2JaiDV64R8UnvO1KUttIpxgH8HY4f3W3Ep3MPXw4vlIz17swZWBKnbkTVGSmBs"/>
+        <paras content="P1oQ3VA9vp95OplYCOovqSQVEG6I67qa2d9iLrJ7VxyJW6LQvdbbNP6OQnMxsAm6r"/>
+        <paras content="QvmDRBHIHkEiy2WQAqJHjtpjb1ZnbOMjfPNlcqFFY5IqR05Wv9CMH8nCKghxL"/>
+        <paras content="QzBV4p8Zlr9uyCDsm3mUAS4cmB87nEMVVNUaNWnQdcGbIKub8hD6jmMKYwa5NsTFbn"/>
+        <paras content="RF4NF9ymFRnVlSv6tRe6HUTDiU2ioBJylekWDJwVwz5BEoxv1rjX3c18fkp"/>
+        <paras content="RPplvKfOpA17SD7s6TjJD43zIDQN9pbdf23KRHm1YPGI0LPhftXaVHQivBOplg9"/>
+        <paras content="RSU11tKthcatRxQjA9r0oZXfExCkjKJpGnI7SSfRni4mbXgDBGOiFs9626nty"/>
+        <paras content="RTwLPfxRnN5Q0dNgs0fQTlm02wt3hCqVbSZdtbskDkVKkeYmAlcs6EfdqgJ"/>
+        <paras content="SVotD5Z8DbeAF61X9ScjkMZbBgFweTPTUrPhLZpBY7tiqSJ0IfxSHpahAbsL"/>
+        <paras content="ScuwHv4y52Ch9BlDRDF87H2y5aOjabBE63wJj1BoQtNtRrAL3EAbnmRXTN"/>
+        <paras content="Szt4vzTurKpFCSPM3uBVK5MT98oFstxXBAKR8lwJKxOFHFbLWEuiDug9LW"/>
+        <paras content="TaFaoM6bqTk6K9qPSMhnp0x3FMdQ7PHo9MsZ293AAld8Gv9yf830udL8nqs6uOEtglpGq"/>
+        <paras content="TqzvGEkV2TEV2gSyv3KLvHVkUTD78ZjGCDKYDQJ2we8rG5s8vHrvCisQpvrd"/>
+        <paras content="U29DBlG08YKQfaaRuXAKgR7SONNYTb6sAYl2m54cVppCimPfNr40wH0bTR"/>
+        <paras content="Vu85IcajzWKByjGiYlMdWWFlh3ziC7k9q4bPOQdrBzhSGlfiTP5zcOyCJveIHB5jRX5"/>
+        <paras content="W49DwNDsp3U2GjRyIWH27FmgQbjMhXFWHrhVIiTdWEWqSDn1U2SJEvAads2x"/>
+        <paras content="WkmshdnPhvgxBxQjeume1a3qA3kys9O9koMgnTW5op6wa1h6lKOwSnmRTLi"/>
+        <paras content="a3GMYna5k8SPxl9nI9m2IXnJUZzHAYdgh9USnQ7DjSsCB06NoGPWsUFqA6aGe5"/>
+        <paras content="b60s0Wj072AH1mlTwuTFrncoNd6YUnnetyYcEczoGSARWe1oj0Ar2r69YsL35v3A0J"/>
+        <paras content="bVVLgYWmWjZdpzLKOdk1sd3B4F8XZhaAENvfo2gBU3yn3K9JsaA9XYlwLhTmRkJ0yXuMt"/>
+        <paras content="btroGttFEiElG9NtfI76h8tymzVC6h1Y7LEOlgRfffHuFohQWGAQl0WJtzD9JCVCw"/>
+        <paras content="bxIxhvwEmwd19HcIp8tOo21y0lG2UtoFxtx8PH4dTFvrBnTGPt7FE2AP7a7KJtWep"/>
+        <paras content="c9vIvpW8ddHzc5dH2CSdQ0Jpl2xR53jg4CMzAcuddQkLtJ6PwmQ5leQIgsppc662ND"/>
+        <paras content="cIKYOipRmmHuKSAtDybpc0lE0ea4mIQ06gXWMnlOkcjXGgmPHOpFvHOhKLDS4rR"/>
+        <paras content="cb6TMCWZ7XoCkdh5vtpG2YUKUgkgZa13HRlUVlao4yid5HKsHudzz8ZwwtpD5WkiA866b"/>
+        <paras content="duU9dIBP65uLURWDxnxjQoieIq6c3XEqInBnUPoHiZdSIzByJWfOXdFTjN4hZHCM0"/>
+        <paras content="fZ01OBhYfuBQBna9pPnBfA0VtBMMpFZuu5ZEXIiW0iwsf6RDUNbWqQad2Cwe1m6J"/>
+        <paras content="fbJhNmTDl5YwLFXIm2FViYgQbPT8qCcyGZVwm0kbAKlHFBUgKYxeFPLD9dXu2h7oh6"/>
+        <paras content="feQ0bPkpc5MgvrVPfuhFI7p4wv619MgQ3m5w07o4FVCea6jj1QFXbIwwYsjSRND"/>
+        <paras content="gIW2dekUn9DyBb5Glvoc2QMSU2anxdbTUb0Di1NrdGMThp8AXQOUsdE7aMSB"/>
+        <paras content="gt475p0Tg62VGjEpGAsvLjvLD4t5DAJ0fLElhFjUOBo7c8Qjr0ClDkXIkPr926"/>
+        <paras content="hmLNv6nCPzuZn69coapu8MtiP5hyfDP6nkqprSansYhko3fjBS7kVFYDEKer"/>
+        <paras content="hwd8n8exVDjxvkS3s1LbKQsrE3vhc5fEr4j1Pp2laBoJpAZulwnjy0H4nX2RxdBm7FT0"/>
+        <paras content="iO3556fHyT3FjFt56bxz0J1J5P9OVvzafkHXzO0rEDGv7KISwP4NlSA3GdBeakPllnsb"/>
+        <paras content="j3cC2esHNsgzFnetpIcQAhZRDZLa9qwWLBMfpBeE5yBayIQdBfbUjmuHrHyKJk6TDC3Qbb"/>
+        <paras content="jj7vZWiTNGrgBUs6iRjwUCJApQV42cPDKUSZwCG6vvrt5a6Z82dhJP87Epxm2kVYGrnycY"/>
+        <paras content="kZ4agorKwk2Pp1OyuDXEgyWiZoOkCBNvwTNu1TsSaoKt5HujireMMInI6MJwlUfc4K"/>
+        <paras content="mrf03nlC4S765FB9FafXjXgc2ag69fMBxbRgkzIIiMZ591igJoD1ByQ6lPkGm5u7lAr"/>
+        <paras content="myo420N2WmsmCVZxki9TKjc4EaseUl6UzxZgc1ck6djP443KT5K6LUAxnO1iubw"/>
+        <paras content="n7RGMnFvFXKgCFVygIWbc7jR3xcyoWfDRHRKkL26M7UuwAeRD1ZDHjnPjjMi"/>
+        <paras content="ns24t2WCou6Dl8t6TOU4FeUxT1j0mfsyaTH48nzw5NZyT3jimPURTUwnwwvCyfO6svxe"/>
+        <paras content="pWoZoDDwBqkCRxdJChm8UY8Ojf87zke8IX87UvLcZ44ruPvbISMavBIz0XfiBf"/>
+        <paras content="r1EDdTrvk69sOVWwyAJ8nfMRBx7Wp094XVHpYGHSfQf8qDeQewebHxBNIiBwW"/>
+        <paras content="s4bTbTmIGrn7vRPfjhNK24bLbSqRKaIMjEIMg71BNn3Yry8jZ0PEeUAG5e9ZiaiG6ghX"/>
+        <paras content="sIB6rnKJqLUSXqq2Fq25F4jAAdRWEE4i6Yd7GdaqKifJRiYq2OKmxA5el3VZN3jVvJB"/>
+        <paras content="sduHJrx8uq7PueqfS8BbGjgeKyYf8cPPnYFAExEfoEhP3LA8IJGtcM6XOItXi"/>
+        <paras content="sn9E8YGRpLZgdnCUSxB1RCmhGtomixH6PgsEqJaopqFtsOREWdBEZP4aOEX5t"/>
+        <paras content="t1D017LB9xBXlBMqsMf5fV2ZgK7F9TpwzoW1XUZ8oZf28iNO0KUS0ysKbdsQ9f"/>
+        <paras content="t3LGLNc9aOEUeJMM9i4lXPZTpOpI5awfKIkk3vzgQcrFMa3sFueMqXkc0JHsePJ4z6Dtxs"/>
+        <paras content="uC1lrDj5vcWq1HwLYJLPYbHG1RMuJhaPxpbSmXvbFss139wzKjcyiHC0Jwmw"/>
+        <paras content="vdSiQHN9rdLkOc1LwzwGuUsr35AOXwbcMQhWVyj9flB0B1R64cKAiJpFXPRREPalI"/>
+        <paras content="wXNpYSWqEsDOj0JeMJ4oNCCitKrRLWdYlbOJRFe66F0vhRzOc2Bz6SYs2XUQvB9gb"/>
+        <paras content="wXkYfgmFj7QAAlm2IC983soVWx1IzNH27IOj7ILxJtw91b1gRs5FAvtDdQg5K5pS1q79GS"/>
+        <paras content="yRqKXnzey1y9xFGuHj4UMv9hdZZKRS8NPUNk26v6xFoVHBUvbRWOr4yxx2"/>
+        <paras content="ydAoN8oQ72dGeRJQunoqAl1zPF4LOwxZqNzGNUpH8lTF7cdKFbR056t9VmR2LYJMDrSW"/>
+        <paras content="yweWMGU8IYw2a7FO5rl5PZS4ID76hWWM63ODmjhj3yt9bqf7di65n1gC8eO0jCuwc"/>
+        <paras content="zkIa1U8RkR3GPg2F3a0rubCYTMuK6PlNUL6O0hKIe0eziedjKVeILA6XrSXPEPUX5vOMk"/>
+        <paras content="zt3eKayv6MBtF4aQ15nIKI06Ic5MGPsYlqYjSd1BLmwJVATPRxqo5AqoemO5DnK2x6ZE"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras/>
+      </sections_1>
+      <sections_1 title="Journals List"/>
+    </articles>
+  </books>
+</docbook:DocBook>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Relational="Relational">
+  <Relational:Schema>
+    <tables name="Bank"/>
+    <tables/>
+    <tables/>
+    <tables/>
+    <tables/>
+    <tables/>
+    <tables/>
+    <tables/>
+    <tables/>
+    <types/>
+    <types/>
+    <types/>
+  </Relational:Schema>
+  <Relational:Column/>
+  <Relational:Column/>
+  <Relational:Column/>
+  <Relational:Column/>
+  <Relational:Table/>
+  <Relational:Table/>
+</xmi:XMI>

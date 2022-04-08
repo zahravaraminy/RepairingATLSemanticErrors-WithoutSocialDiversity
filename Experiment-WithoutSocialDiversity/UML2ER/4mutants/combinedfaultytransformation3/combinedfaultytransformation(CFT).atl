@@ -1,0 +1,84 @@
+-- @path SimpleUml=/example.tracts/uml2er/metamodels/SimpleUml.ecore
+-- @path ER=/example.tracts/uml2er/metamodels/ER.ecore
+-- @atlcompiler emftvm
+module SimpleUml2ER;
+create OUT : ER from IN : SimpleUml;
+
+
+abstract rule NamedElement {
+from
+s : SimpleUml!NamedElement
+to
+t : ER!Element (
+name <- s.name
+)
+}
+
+rule Package extends NamedElement {
+from
+s : SimpleUml!Package
+to
+t : ER!ERModel (
+entities <- s.ownedElements
+
+)
+}
+
+rule Class extends NamedElement {
+from
+s : SimpleUml!Class
+to
+t : ER!EntityType (
+features <- s.ownedProperty
+)
+}
+
+abstract rule Property extends NamedElement {
+from
+s : SimpleUml!Class
+to
+t : ER!Feature
+}
+
+rule Attributes extends Property {
+from
+s : SimpleUml!Property
+(
+not s.primitiveType.oclIsUndefined() and s.complexType.oclIsUndefined()
+)
+to
+t : ER!Attribute (
+type <- s.complexType,
+name <- 'dummy'
+)
+}
+
+rule References extends Property {
+from
+s : SimpleUml!Property
+(
+not s.complexType.oclIsUndefined()
+)
+to
+t : ER!Reference
+}
+
+rule WeakReferences extends References {
+from
+s : SimpleUml!Property
+(
+not s.isContainment
+)
+to
+t : ER!WeakReference
+}
+
+rule StrongReferences extends References {
+from
+s : SimpleUml!Property
+(
+s.isContainment
+)
+to
+t : ER!StrongReference
+}
